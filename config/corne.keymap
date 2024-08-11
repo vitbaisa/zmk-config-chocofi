@@ -29,7 +29,7 @@
 
                 nav_layer {
                         bindings = <
-    &none           &none           &none           &none           &none           &kp INS         &kp HOME        &kp PG_DN        &kp PG_UP        &kp END
+    &none           &none           &none           &none           &none           &kp INS         &kp HOME        &kp PG_DN       &kp PG_UP        &kp END
     &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &none           &kp ESC         &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT
     &none           &none           &none           &none           &none           &kp DEL         &caps_word      &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK
                                     &kp ESC         &kp SPACE       &kp TAB         &none           &none           &none
@@ -38,7 +38,7 @@
 
                 media_layer {
                         bindings = <
-    &none           &none           &none           &none           &none           &none           &none           &none           &none           &none
+    &none           &none           &none           &none           &none           &bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3
     &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &none           &kp C_MUTE      &kp C_PREV      &kp C_VOL_DN    &kp C_VOL_UP    &kp C_NEXT
     &none           &none           &none           &none           &none           &kp C_PP        &kp C_STOP      &none           &none           &none
                                     &kp C_STOP      &kp C_PP        &kp C_MUTE      &none           &none           &none
@@ -65,7 +65,7 @@
 
                 fun_layer {
                         bindings = <
-    &none           &none           &none           &none           &none           &kp F1          &kp F2          &kp F3          &kp F4          &none
+    &bootloader     &none           &none           &none           &none           &kp F1          &kp F2          &kp F3          &kp F4          &none
     &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &none           &kp F5          &kp F6          &kp F7          &kp F8          &none
     &none           &none           &none           &none           &none           &kp F9          &kp F10         &kp F11         &kp F12         &none
                                     &kp ESC         &kp SPACE       &kp TAB         &kp RET         &kp BSPC        &kp DEL
