@@ -24,7 +24,7 @@
     &kp Q           &kp W           &kp F           &kp P           &kp B           &kp J           &kp L           &kp U           &kp Y           &kp SQT
     &mt LGUI A      &mt LALT R      &mt LCTRL S     &mt LSHFT T     &mt RALT G      &mt RALT M      &mt LSHFT N     &mt LCTRL E     &mt LALT I      &mt LGUI O
     &mt LCTRL Z     &mt RALT X      &kp C           &kp D           &kp V           &kp K           &kp H           &kp COMMA       &mt RALT DOT    &lt _FUN FSLH
-                                                    &lt _SYM TAB    &lt _NUM SPACE  &lt _NAV BSPC   &lt _MEDIA RET
+                                    &mt LSHFT ESC   &lt _NUM SPACE  &lt _SYM TAB    &lt _MEDIA RET  &lt _NAV BSPC   &lt _FUN DEL
                         >;
                 };
 
@@ -33,7 +33,7 @@
     &no             &no             &no             &no             &no             &kp INS         &kp HOME        &kp PGDN        &kp PGUP        &kp END
     &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &no             &kp ESC         &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT
     &no             &no             &no             &no             &no             &kp DEL         &u_caps_word    &kp PSCR        &kp SCRL        &kp PAUS
-                                                    &kp TAB         &kp SPACE       &no             &no
+                                    &kp ESC         &kp SPACE       &kp TAB         &no             &no             &no
                         >;
                 };
 
@@ -42,7 +42,7 @@
     &no             &no             &no             &no             &no             &no             &no             &no             &no             &no
     &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &no             &kp C_MUTE      &kp C_PREV      &kp C_VOL_DN    &kp C_VOL_UP    &kp C_NEXT
     &no             &no             &no             &no             &no             &kp C_PP        &kp C_STOP      &no             &no             &no
-                                                    &kp C_MUTE      &kp C_PP        &no             &no
+                                    &kp C_STOP      &kp C_PP        &kp C_MUTE      &no             &no             &no
                         >;
                 };
 
@@ -51,7 +51,7 @@
     &kp GRAVE       &kp 7           &kp 8           &kp 9           &kp 0           &no             &no             &no             &no             &no
     &kp SEMI        &kp 4           &kp 5           &kp 6           &kp MINUS       &no             &kp LSHFT       &kp LCTRL       &kp LALT        &kp LGUI
     &kp BSLH        &kp 1           &kp 2           &kp 3           &kp EQUAL       &no             &no             &no             &no             &no
-                                                    &no             &no             &kp LBKT        &kc RBKT
+                                    &no             &no             &no             &kp LBKT        &kc RBKT        &no
                         >;
                 };
 
@@ -60,7 +60,7 @@
     &kp TILDE       &kp AMPS        &kp KP_MULTIPLY &kp LPAR        &kp RPAR        &no             &no             &no             &no             &no
     &kp COLN        &kp DLLR        &kp PRCNT       &kp CARET       &kp UNDS        &no             &kp LSHFT       &kp LCTRL       &kp LALT        &kp LGUI
     &kp PIPE        &kp EXCL        &kp AT          &kp HASH        &kp PLUS        &no             &no             &no             &no             &no
-                                                    &no             &no             &kp LBRC        &kp RBRC
+                                    &no             &no             &no             &kp LBRC        &kp RBRC        &no
                         >;
                 };
 
@@ -69,7 +69,7 @@
     &no             &no             &no             &no             &no             &kp F1          &kp F2          &kp F3          &kp F4          &no
     &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &no             &kp F5          &kp F6          &kp F7          &kp F8          &no
     &no             &no             &no             &no             &no             &kp F9          &kp F10         &kp F11         &kp F12         &no
-                                                    &kp TAB         &kp SPACE       &kp BSPC        &kp RET
+                                    &kp ESC         &kp SPACE       &kp TAB         &kp RET         &kp BSPC        &kp DEL
                         >;
                 };
 
