@@ -18,14 +18,14 @@
         keymap {
                 compatible = "zmk,keymap";
 
-                default_layer {
-                        bindings = <
-    &kp Q           &kp W           &kp F           &kp P           &kp B           &kp J           &kp L           &kp U           &kp Y           &kp SQT
-    &mt LGUI A      &mt LALT R      &mt LCTRL S     &mt LSHFT T     &mt RALT G      &mt RALT M      &mt LSHFT N     &mt LCTRL E     &mt LALT I      &mt LGUI O
-    &mt LCTRL Z     &mt RALT X      &kp C           &kp D           &kp V           &kp K           &kp H           &kp COMMA       &mt RALT DOT    &lt _FUN FSLH
-                                    &mt LSHFT ESC   &lt _NUM SPACE  &lt _SYM TAB    &lt _MEDIA RET  &lt _NAV BSPC   &lt _FUN DEL
-                        >;
-                };
+    //             default_layer {
+    //                     bindings = <
+    // &kp Q           &kp W           &kp F           &kp P           &kp B           &kp J           &kp L           &kp U           &kp Y           &kp SQT
+    // &mt LGUI A      &mt LALT R      &mt LCTRL S     &mt LSHFT T     &mt RALT G      &mt RALT M      &mt LSHFT N     &mt LCTRL E     &mt LALT I      &mt LGUI O
+    // &mt LCTRL Z     &mt RALT X      &kp C           &kp D           &kp V           &kp K           &kp H           &kp COMMA       &mt RALT DOT    &lt _FUN FSLH
+    //                                 &mt LSHFT ESC   &lt _NUM SPACE  &lt _SYM TAB    &lt _MEDIA RET  &lt _NAV BSPC   &lt _FUN DEL
+    //                     >;
+    //             };
 
                 nav_layer {
                         bindings = <
