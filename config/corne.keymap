@@ -32,7 +32,7 @@
                         bindings = <
     &no             &no             &no             &no             &no             &kp INS         &kp HOME        &kp PGDN        &kp PGUP        &kp END
     &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &no             &kp ESC         &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT
-    &no             &no             &no             &no             &no             &kp DEL         &u_caps_word    &kp PSCR        &kp SCRL        &kp PAUS
+    &no             &no             &no             &no             &no             &kp DEL         &caps_word    &kp PSCR        &kp SCRL        &kp PAUS
                                     &kp ESC         &kp SPACE       &kp TAB         &no             &no             &no
                         >;
                 };
