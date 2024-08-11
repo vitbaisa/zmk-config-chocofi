@@ -18,20 +18,20 @@
         keymap {
                 compatible = "zmk,keymap";
 
-    //             default_layer {
-    //                     bindings = <
-    // &kp Q           &kp W           &kp F           &kp P           &kp B           &kp J           &kp L           &kp U           &kp Y           &kp SQT
-    // &mt LGUI A      &mt LALT R      &mt LCTRL S     &mt LSHFT T     &mt RALT G      &mt RALT M      &mt LSHFT N     &mt LCTRL E     &mt LALT I      &mt LGUI O
-    // &mt LCTRL Z     &mt RALT X      &kp C           &kp D           &kp V           &kp K           &kp H           &kp COMMA       &mt RALT DOT    &lt _FUN FSLH
-    //                                 &mt LSHFT ESC   &lt _NUM SPACE  &lt _SYM TAB    &lt _MEDIA RET  &lt _NAV BSPC   &lt _FUN DEL
-    //                     >;
-    //             };
+                default_layer {
+                        bindings = <
+    &kp Q           &kp W           &kp F           &kp P           &kp B           &kp J           &kp L           &kp U           &kp Y           &kp SQT
+    &mt LGUI A      &mt LALT R      &mt LCTRL S     &mt LSHFT T     &mt RALT G      &mt RALT M      &mt LSHFT N     &mt LCTRL E     &mt LALT I      &mt LGUI O
+    &mt LCTRL Z     &mt RALT X      &kp C           &kp D           &kp V           &kp K           &kp H           &kp COMMA       &mt RALT DOT    &lt _FUN FSLH
+                                    &mt LSHFT ESC   &lt _NUM SPACE  &lt _SYM TAB    &lt _MEDIA RET  &lt _NAV BSPC   &lt _FUN DEL
+                        >;
+                };
 
                 nav_layer {
                         bindings = <
-    &none           &none           &none           &none           &none           &kp INS         &kp HOME        &kp PGDN        &kp PGUP        &kp END
+    &none           &none           &none           &none           &none           &kp INS         &kp HOME        &kp PG_DN        &kp PG_UP        &kp END
     &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &none           &kp ESC         &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT
-    &none           &none           &none           &none           &none           &kp DEL         &caps_word      &kp PSCR        &kp SCRL        &kp PAUS
+    &none           &none           &none           &none           &none           &kp DEL         &caps_word      &kp PSCRN       &kp SLCK        &kp PAUSE_BREAK
                                     &kp ESC         &kp SPACE       &kp TAB         &none           &none           &none
                         >;
                 };
